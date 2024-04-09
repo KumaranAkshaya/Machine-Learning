@@ -17,7 +17,7 @@ fraud data. The dataset of credit card transactions obtained from Kaggle contain
 transactions. A mixture of under-sampling and oversampling techniques applied to the unbalanced 
 data. The five strategies used to the raw and preprocessed data, respectively. This work 
 implemented in Python.
-#Acknowledgement
+# Acknowledgement
 We would like sincerely to thank the author from the Kaggle platform which offers the dataset.
 The dataset has been collected and analyzed during a research collaboration of Worldline and the 
 Machine Learning Group (http://mlg.ulb.ac.be) of ULB on big data mining and fraud detection. 
@@ -38,6 +38,8 @@ example-dependant cost-sensitive learning. Feature 'Class' is the response varia
 takes value 1 in case of fraud and 0 otherwise. Given the class imbalance ratio, we 
 recommend measuring the accuracy using the Area Under the Precision-Recall Curve 
 (AUPRC). Confusion matrix accuracy is not meaningful for unbalanced classification.
+# dataset link from kaggle
+https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
 # Steps:
 # Loading the data: 
 Load the credit card transaction data from a CSV file using pandas.
