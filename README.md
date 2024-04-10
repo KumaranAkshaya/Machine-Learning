@@ -87,18 +87,8 @@ ROC score of 0.95.
 number of correct predictions by the total number of predictions. Accuracy = (Number of 
 Correct Predictions) / (Total Number of Predictions).
 # Experimental results and discussion:
-From the results, we observe that the MLP Classifier has the highest accuracy on the testing data
-set (0.9492), followed closely by Logistic Regression (0.9441). However, it's essential to conside
-r other metrics like precision, recall, and F1-score to get a comprehensive understanding of mode
-l performance.
-While MLP Classifier shows the highest accuracy, it has significantly lower recall compared to o
-ther models, indicating that it may not be the best choice if detecting all instances of fraud is cruc
-ial. Logistic Regression, on the other hand, provides a good balance between precision, recall, an
-d accuracy.
-Overall, Logistic Regression seems to be a strong candidate for credit card fraud detection in this 
-scenario, offering a good balance between different evaluation metrics. However, further fine-tun
-ing and testing on larger datasets may be necessary to confirm its effectiveness in real-world appl
-ications
+Based on the updated results, the Random Forest classifier now exhibits the highest accuracy on the testing dataset (95%), surpassing all other models. However, it's crucial to consider additional metrics such as precision, recall, and F1-score for a comprehensive evaluation of model performance. Despite its high accuracy, we observe that Random Forest may not be the optimal choice if detecting all instances of fraud is crucial, as it may have lower recall compared to other models.
 
+Logistic Regression still maintains a good balance between precision, recall, and accuracy, making it a strong candidate for credit card fraud detection in this scenario. While Random Forest shows promising results, further fine-tuning and testing on larger datasets are necessary to confirm its effectiveness in real-world applications.
 
 
